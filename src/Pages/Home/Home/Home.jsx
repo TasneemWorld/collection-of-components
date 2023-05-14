@@ -4,6 +4,7 @@
 import About from "../About/About";
 import Slider from "../BannerSection/Slider";
 import Slider3 from "../BannerSection/Slider3";
+import Services from "../Services/Services";
 
 const Home = () => {
     return (
@@ -11,6 +12,7 @@ const Home = () => {
             <Slider></Slider>
             <Slider3></Slider3>
             <About></About>
+            <Services></Services>
             {/* <Banner></Banner> */}
         </div>
     );

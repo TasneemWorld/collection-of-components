@@ -25,8 +25,11 @@ export default function Slider3() {
                         src="https://images.pexels.com/photos/1402787/pexels-photo-1402787.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1"
                         className="aspect-[16/10] md:aspect-auto object-cover"
                     />
-                    <h2 className="absolute  text-white">slide</h2>
-                    </SwiperSlide>
+                    <div className="absolute">
+                        <h2 className="text-white text-5xl">slide</h2>
+                        <p className="text-white">Lorem ipsum dolor sit amet, consectetur adipisicing elit. <br /> Accusantium voluptatum illo repellat ducimus sunt praesentium recusandae rem aspernatur iusto asperiores.</p>
+                    </div>
+                </SwiperSlide>
                 <SwiperSlide>Slide 2</SwiperSlide>
                 <SwiperSlide>Slide 3</SwiperSlide>
                 <SwiperSlide>Slide 4</SwiperSlide>
