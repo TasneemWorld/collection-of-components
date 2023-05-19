@@ -6,8 +6,8 @@ const Nabvar = () => {
         <li><Link>Home</Link></li>
         <li><Link>About</Link></li>
         <li><Link>Services</Link></li>
-        <li><Link>Contact</Link></li>
-        <li><Link>Help</Link></li>
+        <li><Link to='/signup'>SignUp</Link></li>
+        <li><Link to='/login'>LogIn</Link></li>
     </>
     return (
         <div className="navbar bg-base-100 h-28 mb-5">

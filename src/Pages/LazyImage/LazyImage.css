@@ -1,0 +1,8 @@
+.lazy-image-caption {
+    opacity: 0;
+    transition: opacity 0.5s ease;
+  }
+  
+  .lazy-image-caption.loaded {
+    opacity: 1;
+  }
